@@ -24,7 +24,7 @@ function App() {
                 </Typography>
                 <Grow in>
 
-                    <Grid container >
+                    <Grid container className = {classes.grid}>
                         <Posts setCurrentId = {setCurrentId} setModal = {setModal}/>
                     </Grid>
 
