@@ -29,5 +29,11 @@ export default makeStyles(() => ({
             "&.MuiButton-outline": {
                 color: "#1c2321"
             }
-        }
+    },
+    grid: {
+        marginTop: "10vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center"
+    }
 }));
