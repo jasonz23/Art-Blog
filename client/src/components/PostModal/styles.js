@@ -4,7 +4,7 @@ export default makeStyles(() => ({
     modal: {
         backgroundColor: "white",
         width: "65%",
-        height: "60%",
+        height: "70%",
         margin: "auto",
         display:"flex",
         justifyContent: "center",
