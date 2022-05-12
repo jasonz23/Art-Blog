@@ -22,7 +22,6 @@ export default makeStyles(() => ({
                 fontSize: "2vh",
                 fontFamily: "Signika",
                 color: "#fff",
-                width: "15vw",
                 border: "3px #ffff solid"
 
             },
