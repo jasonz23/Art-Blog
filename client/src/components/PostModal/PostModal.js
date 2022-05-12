@@ -95,14 +95,14 @@ function PostModal(props) {
 
                     </Grid>
                     <Grid item>
-                        <Button variant = "container" color = "primary" type = "submit" size = "large" fullWidth>
+                        <Button variant = "container" style={{backgroundColor: "lightblue"}} color = "primary" type = "submit" size = "large" fullWidth>
                             Submit
                         </Button>
 
                         
                     </Grid>
                     <Grid item>
-                        <Button variant = "container" color = "secondary"size = "large"  onClick = {clear} fullWidth>
+                        <Button variant = "container" style={{backgroundColor: "pink"}} size = "large"  onClick = {clear} fullWidth>
                             Cancel
 
                         </Button>
