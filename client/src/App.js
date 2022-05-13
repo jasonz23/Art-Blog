@@ -19,7 +19,7 @@ function App() {
             <PostModal show = {modal} setModal = {setModal} currentId = {currentId} setCurrentId = {setCurrentId} />
             <Header setModal = {setModal}/>
             <Grid container className = {classes.grid}>
-                <Typography variant = "h2">
+                <Typography variant = "h2" >
                     Posts
                 </Typography>
                 <Grow in>
