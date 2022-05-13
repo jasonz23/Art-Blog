@@ -34,6 +34,6 @@ export default makeStyles(() => ({
         marginTop: "10vh",
         display: "flex",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
     }
 }));
