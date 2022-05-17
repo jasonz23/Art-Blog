@@ -16,7 +16,7 @@ function Posts(props) {
             <Grid container alignItems = "stretch" spacing = {3} className = {classes.root}>
 
                 {
-                    posts.reverse().map((post) => (
+                    posts.map((post) => (
                         <Grid key = {post.id} item xs = {12} sm  ={6}>
                             <Post post = {post} setCurrentId = {props.setCurrentId} setModal = {props.setModal}/>
                             {/* props drilling sending the props down the heirarchy */}
