@@ -16,8 +16,9 @@ function App() {
     }, [currentId, dispatch]);
     return (
         <Container className = {classes.root}>
-            <PostModal show = {modal} setModal = {setModal} currentId = {currentId} setCurrentId = {setCurrentId} />
             <Header setModal = {setModal}/>
+            <PostModal show = {modal} setModal = {setModal} currentId = {currentId} setCurrentId = {setCurrentId} />
+            
             <Grid container className = {classes.grid}>
                 <Typography variant = "h2" >
                     Posts
