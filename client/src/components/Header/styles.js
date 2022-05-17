@@ -28,5 +28,8 @@ export default makeStyles(() => ({
             "&.MuiButton-outline": {
                 color: "#1c2321"
             }
-        }
+    },
+    main: {
+        height: "100vh"
+    }
 }));
